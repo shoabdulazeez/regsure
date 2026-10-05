@@ -1,0 +1,1 @@
+export default function SiteFooter() { return <footer className="footer shell"><a className="wordmark" href="/"><img className="mark-logo" src="/regsure-mark.svg" alt="" /><span>regsure</span></a><span>Stock. Sales. Sense.</span><span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · © 2026 Regsure</span></footer> }

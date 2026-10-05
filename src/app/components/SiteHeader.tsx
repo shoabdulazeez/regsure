@@ -1,0 +1,3 @@
+'use client';
+import { useState } from 'react';
+export default function SiteHeader() { const [open, setOpen] = useState(false); return <nav className="nav shell"><a className="wordmark" href="/"><img className="mark-logo" src="/regsure-mark.svg" alt="" /><span>regsure</span></a><div className={`nav-links ${open ? 'open' : ''}`}><a href="/why-regsure">Why Regsure</a><a href="/whatsapp">WhatsApp</a><a href="/plans">Plans</a><a className="nav-cta" href="/join-waitlist">Join the waitlist <span>↗</span></a></div><button className="menu" onClick={() => setOpen(!open)}>{open ? 'Close' : 'Menu'}</button></nav> }
